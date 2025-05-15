@@ -1,0 +1,7 @@
+Prometheus scrap metrics from node exportes,kubestatemetrics and custom metrics.
+
+promethues ui-->promql-->container health in dedault monitoring-->/metrics-->kubestatemetrics-->kubeapiserver
+
+grafana used for better visualization with creating dashboards.we have custom dashboards and predefind dashboards
+we use connetions to connect the data sources-->promql,nagios etc for better visulization.
+
